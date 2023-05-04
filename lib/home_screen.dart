@@ -56,6 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 curve: Curves.ease,
                 builder: (context, value, child) {
                   return Positioned(
+                    height: 250,
                     left: 0,
                     right: 0,
                     top: size.height * 0.05 + (size.height / 2 * value),
@@ -79,6 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
               tween: Tween(begin: 1.0, end: 0.0),
               curve: Curves.ease,
               builder: (context, value, child) => Positioned(
+                height: 300,
                 left: 0,
                 right: 0,
                 top: size.height * 0.2 + (size.height / 3 * value),
